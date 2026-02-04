@@ -1,6 +1,7 @@
 {
     "spider": "https://img2.gelonghui.com/library/eadaa-7cea026a-878c-484b-8904-3e1d87a69041.png;md5;eadaaee8e25f5d590dc4f40488207d0d",
     "wallpaper": "https://img.mzb.de5.net/1769704929467.jpg",
+    "warningText": "木子白白白：公益接口仅作学习交流测试使用",
     "logo": "https://img.mzb.de5.net/1769093582801.png",
     "sites": [
         {
@@ -411,3 +412,4 @@
         "studentlive.migucloud.com=base-v4v6-miguvideo.e.cdn.chinamobile.com"
     ]
 }
+
