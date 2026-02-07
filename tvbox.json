@@ -5,11 +5,89 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "木子白白白┃02/02",
+            "name": "木子白白白┃02/08",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
             "jar": "https://img2.gelonghui.com/library/eadaa-7cea026a-878c-484b-8904-3e1d87a69041.png"
+        },
+        {
+            "key": "糯米影视",
+            "name": "糯米┃影视",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "sp": "Nmys",
+                "danmu": true
+            },
+            "timeout": 10,
+            "jar": "https://gh-proxy.com/https://github.com/hnlyzxf/tvbox/blob/main/jar/lnys.jar"
+        },
+        {
+            "key": "雄鹰影视",
+            "name": "雄鹰┃影视",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "ext": {
+                "sp": "XiongYing",
+                "danmu": true
+            },
+            "timeout": 10,
+            "jar": "https://gh-proxy.com/https://github.com/hnlyzxf/tvbox/blob/main/jar/lnys.jar"
+        },
+        {
+            "key": "比特影视",
+            "name": "比特┃影视",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "sp": "Btt",
+                "danmu": true
+            },
+            "timeout": 10,
+            "jar": "https://gh-proxy.com/https://github.com/hnlyzxf/tvbox/blob/main/jar/lnys.jar"
+        },
+        {
+            "key": "天天影视",
+            "name": "天天┃影视",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "sp": "TianTian",
+                "danmu": true,
+                "site": 0
+            },
+            "timeout": 10,
+            "jar": "https://gh-proxy.com/https://github.com/hnlyzxf/tvbox/blob/main/jar/lnys.jar"
+        },
+        {
+            "key": "6V影视",
+            "name": "6V┃影视",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "sp": "Xb6v"
+            },
+            "timeout": 20,
+            "jar": "https://gh-proxy.com/https://github.com/hnlyzxf/tvbox/blob/main/jar/lnys.jar"
         },
         {
             "key": "柠檬",
@@ -155,14 +233,24 @@
             "jar": "https://img2.gelonghui.com/library/eadaa-7cea026a-878c-484b-8904-3e1d87a69041.png"
         },
         {
-            "key": "csp_LiteApple",
-            "name": "苹果┃影视",
-            "type": 3,
-            "api": "csp_LiteApple",
-            "searchable": 1,
-            "quickSearch": 1,
+            "key": "芒果PY",
+            "name": "芒果┃PY",
+            "api": "https://gh-proxy.com/https://github.com/hnlyzxf/tvbox/blob/main/py/mg.py",
             "filterable": 1,
-            "jar": "https://img2.gelonghui.com/library/eadaa-7cea026a-878c-484b-8904-3e1d87a69041.png"
+            "quickSearch": 1,
+            "searchable": 1,
+            "type": 3,
+            "jar": "https://gh-proxy.com/https://github.com/hnlyzxf/tvbox/blob/main/jar/lnys.jar"
+        },
+        {
+            "key": "两个BT",
+            "name": "2BT丨PY",
+            "api": "https://gh-proxy.com/https://github.com/hnlyzxf/tvbox/blob/main/py/2bt.py",
+            "filterable": 1,
+            "quickSearch": 1,
+            "searchable": 1,
+            "type": 3,
+            "jar": "https://gh-proxy.com/https://github.com/hnlyzxf/tvbox/blob/main/jar/lnys.jar"
         },
         {
             "key": "csp_SP360",
@@ -358,6 +446,30 @@
             "ua": "okhttp/3.15",
             "epg": "http://epg.51zmt.top:8000/e.xml",
             "logo": "https://img.imgdd.com/506a1ca4-ab22-4c6e-b5aa-8033b95d2181.jpg"
+        },
+        {
+            "name": "裤佬",
+            "type": 0,
+            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1"
+        },
+        {
+            "name": "日后",
+            "type": 0,
+            "url": "http://rihou.cc:555/gggg.nzk",
+            "playerType": 2,
+            "ua": "okhttp/3",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+            "logo": "https://epg.112114.eu.org/logo/{name}.png"
+        },
+        {
+            "name": "稳哥",
+            "type": 0,
+            "url": "http://dow.v6x.wht.dgwht.top/file/0ed5edb6a5af3849/c8aa1f2118b266cfa38a0fc034717ab1"
+        },
+        {
+            "name": "易发",
+            "type": 0,
+            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt"
         }
     ],
     "ijk": [],
@@ -411,5 +523,3 @@
         "studentlive.migucloud.com=base-v4v6-miguvideo.e.cdn.chinamobile.com"
     ]
 }
-
-
