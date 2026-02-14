@@ -132,7 +132,7 @@
         },
         {
             "key": "奇优",
-            "name": " 🍩┃奇优┃影视",
+            "name": "奇优┃影视",
             "type": 3,
             "playerType": "2",
             "api": "https://fastly.jsdelivr.net/gh/liu673cn/box@main/libs/js/drpy2.min.js",
@@ -543,3 +543,4 @@
         "studentlive.migucloud.com=base-v4v6-miguvideo.e.cdn.chinamobile.com"
     ]
 }
+
