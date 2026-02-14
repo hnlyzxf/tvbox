@@ -5,7 +5,7 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "木子白白白┃02/08",
+            "name": "木子白白白┃02/15",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -108,6 +108,38 @@
             "jar": "http://cdn.qiaoji8.com/fix260108.jar"
         },
         {
+            "key": "csp_SaoHuo",
+            "name": "骚火┃APP",
+            "type": 3,
+            "api": "csp_SaoHuo",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://saohuody.com",
+            "jar": "https://jihulab.com/yoursmile2/TVBox/-/raw/master/Yoursmile.jar"
+        },
+        {
+            "key": "低端",
+            "name": "低端┃影视",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/json/低端影视.json",
+            "jar": "https://jihulab.com/yoursmile2/TVBox/-/raw/master/Yoursmile.jar"
+        },
+        {
+            "key": "奇优",
+            "name": " 🍩┃奇优┃影视",
+            "type": 3,
+            "playerType": "2",
+            "api": "https://fastly.jsdelivr.net/gh/liu673cn/box@main/libs/js/drpy2.min.js",
+            "ext": "https://fastly.jsdelivr.net/gh/liu673cn/box@main/libs/js/奇优.js",
+            "jar": "https://fastly.jsdelivr.net/gh/liu673cn/box@main/fty.jar"
+        },
+        {
             "key": "永夜",
             "name": "永夜┃App",
             "type": 3,
@@ -161,14 +193,6 @@
             "jar": ".https://gh-proxy.com/raw.githubusercontent.com//gaotianliuyun/gao/master/jar/custom_spider.jar"
         },
         {
-            "key": "再来",
-            "name": "再来┃APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "ext": "https://www.jumengwu.com|1f0a873caf2550a5",
-            "jar": "https://img2.gelonghui.com/library/eadaa-7cea026a-878c-484b-8904-3e1d87a69041.png"
-        },
-        {
             "key": "蔬菜",
             "name": "蔬菜┃APP",
             "type": 3,
@@ -208,14 +232,6 @@
             "jar": "https://img2.gelonghui.com/library/eadaa-7cea026a-878c-484b-8904-3e1d87a69041.png"
         },
         {
-            "key": "csp_Xlys",
-            "name": "修罗┃磁力",
-            "type": 3,
-            "api": "csp_Xlys",
-            "ext": "https://xl01.com.de",
-            "jar": "https://img2.gelonghui.com/library/eadaa-7cea026a-878c-484b-8904-3e1d87a69041.png"
-        },
-        {
             "key": "csp_SaoHuo",
             "name": "火火┃影视",
             "type": 3,
@@ -233,24 +249,28 @@
             "jar": "https://img2.gelonghui.com/library/eadaa-7cea026a-878c-484b-8904-3e1d87a69041.png"
         },
         {
-            "key": "芒果PY",
-            "name": "芒果┃PY",
-            "api": "https://gh-proxy.com/https://github.com/hnlyzxf/tvbox/blob/main/py/mg.py",
-            "filterable": 1,
-            "quickSearch": 1,
-            "searchable": 1,
+            "key": "dr_youku",
+            "name": "优酷(官)",
             "type": 3,
-            "jar": "https://gh-proxy.com/https://github.com/hnlyzxf/tvbox/blob/main/jar/lnys.jar"
+            "api": "https://fastly.jsdelivr.net/gh/liu673cn/box@main/libs/js/drpy2.min.js",
+            "ext": "https://fastly.jsdelivr.net/gh/liu673cn/box@main/libs/js/youku.js",
+            "jar": "https://fastly.jsdelivr.net/gh/liu673cn/box@main/fty.jar"
         },
         {
-            "key": "两个BT",
-            "name": "2BT丨PY",
-            "api": "https://gh-proxy.com/https://github.com/hnlyzxf/tvbox/blob/main/py/2bt.py",
-            "filterable": 1,
-            "quickSearch": 1,
-            "searchable": 1,
+            "key": "dr_qq",
+            "name": "腾讯(官)",
             "type": 3,
-            "jar": "https://gh-proxy.com/https://github.com/hnlyzxf/tvbox/blob/main/jar/lnys.jar"
+            "api": "https://fastly.jsdelivr.net/gh/liu673cn/box@main/libs/js/drpy2.min.js",
+            "ext": "https://fastly.jsdelivr.net/gh/liu673cn/box@main/libs/js/qq.js",
+            "jar": "https://fastly.jsdelivr.net/gh/liu673cn/box@main/fty.jar"
+        },
+        {
+            "key": "dr_mgtv",
+            "name": "芒果(官)",
+            "type": 3,
+            "api": "https://fastly.jsdelivr.net/gh/liu673cn/box@main/libs/js/drpy2.min.js",
+            "ext": "https://fastly.jsdelivr.net/gh/liu673cn/box@main/libs/js/mgtv.js",
+            "jar": "https://fastly.jsdelivr.net/gh/liu673cn/box@main/fty.jar"
         },
         {
             "key": "csp_SP360",
