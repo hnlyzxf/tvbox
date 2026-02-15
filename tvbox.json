@@ -90,15 +90,6 @@
             "jar": "https://gh-proxy.com/https://github.com/hnlyzxf/tvbox/blob/main/jar/lnys.jar"
         },
         {
-            "key": "柠檬",
-            "name": "柠檬┃App",
-            "type": 3,
-            "api": "csp_Nmvod",
-            "playerType": 2,
-            "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1",
-            "jar": "http://cdn.qiaoji8.com/fix260108.jar"
-        },
-        {
             "key": "巧技二",
             "name": "巧技┃搜索",
             "type": 3,
@@ -543,4 +534,5 @@
         "studentlive.migucloud.com=base-v4v6-miguvideo.e.cdn.chinamobile.com"
     ]
 }
+
 
