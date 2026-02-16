@@ -5,11 +5,66 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "木子白白白┃02/15",
+            "name": "木子白白白┃02/16",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
             "jar": "https://img2.gelonghui.com/library/eadaa-7cea026a-878c-484b-8904-3e1d87a69041.png"
+        },
+        {
+            "key": "肥猫",
+            "name": "肥猫┃APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": "https://wsapi.dafenqi.mom/yuming.txt|bH5mI8iK0tK7aQ5x",
+            "jar": "https://img2.gelonghui.com/library/eadaa-7cea026a-878c-484b-8904-3e1d87a69041.png;md5;eadaaee8e25f5d590dc4f40488207d0d"
+        },
+        {
+            "key": "行动",
+            "name": "行动┃APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": "http://165.99.42.137:5432|1234567890987654",
+            "jar": "https://img2.gelonghui.com/library/eadaa-7cea026a-878c-484b-8904-3e1d87a69041.png;md5;eadaaee8e25f5d590dc4f40488207d0d"
+        },
+        {
+            "key": "永乐",
+            "name": "永乐┃APP",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+                "类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#奇幻片$10#恐怖片$11#剧情片$12#战争片$20#动画片$26#悬疑片$22#冒险片$23#犯罪片$24#惊悚片$45#歌舞片$46#灾难片$47#网络片$48||国产剧$13#港台剧$14#日剧$15#韩剧$33#欧美剧$16#泰剧$34#新马剧$35#其他剧$25||内地综艺$27#港台综艺$28#日本综艺$29#韩国综艺$36#欧美综艺$30#新马泰综艺$37#其他综艺$38||国产动漫$31#日本动漫$32#韩国动漫$39#港台动漫$40#新马泰动漫$41#欧美动漫$42#其他动漫$43",
+                "分类url": "https://www.ylys.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html"
+            },
+            "jar": "https://jihulab.com/yoursmile2/TVBox/-/raw/master/Yoursmile.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8"
+        },
+        {
+            "name": "注视┃APP",
+            "key": "Gaze",
+            "type": 3,
+            "api": "csp_GazeAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "jar": "https://jihulab.com/yoursmile2/TVBox/-/raw/master/Yoursmile.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8"
+        },
+        {
+            "name": "糖心┃影视",
+            "key": "TnewGr",
+            "type": 3,
+            "api": "csp_TnewGrAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "jar": "https://jihulab.com/yoursmile2/TVBox/-/raw/master/Yoursmile.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8"
         },
         {
             "key": "糯米影视",
@@ -90,15 +145,6 @@
             "jar": "https://gh-proxy.com/https://github.com/hnlyzxf/tvbox/blob/main/jar/lnys.jar"
         },
         {
-            "key": "巧技二",
-            "name": "巧技┃搜索",
-            "type": 3,
-            "api": "csp_qiao2",
-            "playerType": 2,
-            "ext": "7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312h4934183ig2l05g9",
-            "jar": "http://cdn.qiaoji8.com/fix260108.jar"
-        },
-        {
             "key": "csp_SaoHuo",
             "name": "骚火┃APP",
             "type": 3,
@@ -129,33 +175,6 @@
             "api": "https://fastly.jsdelivr.net/gh/liu673cn/box@main/libs/js/drpy2.min.js",
             "ext": "https://fastly.jsdelivr.net/gh/liu673cn/box@main/libs/js/奇优.js",
             "jar": "https://fastly.jsdelivr.net/gh/liu673cn/box@main/fty.jar"
-        },
-        {
-            "key": "永夜",
-            "name": "永夜┃App",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 2,
-            "ext": "7lj763gg0939790i413gjh9kk011jijiggll990k9li73l224k770ik0j10l502j2j9l798lhj778hh33g018h94k5j400kij3567j7gji97kkk4118421g03lll",
-            "jar": "http://cdn.qiaoji8.com/fix260108.jar"
-        },
-        {
-            "key": "剧评",
-            "name": "剧评┃App",
-            "type": 3,
-            "api": "csp_Jpys",
-            "playerType": 1,
-            "ext": "7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l",
-            "jar": "http://cdn.qiaoji8.com/fix260108.jar"
-        },
-        {
-            "key": "huomaoys",
-            "name": "火猫┃App",
-            "type": 3,
-            "api": "csp_Qiji",
-            "playerType": 2,
-            "ext": "7lj763gg402i7942553k9hj9lk5h8h86k4gg845kili63835585155k7k103470h1k955lhk9706ih80280ikij0g7l91jlhl565775ikjhj9lg422962ig23ili4845k6g492l0",
-            "jar": "http://cdn.qiaoji8.com/fix260108.jar"
         },
         {
             "key": "潮流",
@@ -534,5 +553,3 @@
         "studentlive.migucloud.com=base-v4v6-miguvideo.e.cdn.chinamobile.com"
     ]
 }
-
-
